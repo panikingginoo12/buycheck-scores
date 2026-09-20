@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T01:07:00Z",
+  "model": "claude-sonnet-5",
+  "macro":     { "score": 50, "note": "placeholder until the first routine run", "sources": [] },
+  "etf":       { "score": 50, "note": "placeholder", "sources": [] },
+  "onchain":   { "score": 50, "note": "placeholder", "sources": [] },
+  "eventRisk": { "points": 0, "note": "placeholder", "sources": [] }
+}
