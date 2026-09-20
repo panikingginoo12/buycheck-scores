@@ -1,10 +1,44 @@
 {
   "schema": 1,
   "date": "2026-09-21",
-  "generatedAt": "2026-09-21T01:07:00Z",
+  "generatedAt": "2026-09-20T18:21:41Z",
   "model": "claude-sonnet-5",
-  "macro":     { "score": 50, "note": "placeholder until the first routine run", "sources": [] },
-  "etf":       { "score": 50, "note": "placeholder", "sources": [] },
-  "onchain":   { "score": 50, "note": "placeholder", "sources": [] },
-  "eventRisk": { "points": 0, "note": "placeholder", "sources": [] }
+  "macro": {
+    "score": 15,
+    "note": "Fed hiked to 3.75-4.00% Sep16 (first hike since 2023), signals 1 more 2026 hike, no cuts til 2027. 10Y yield ~5.0-5.04% (highest since 2007). CPI 3.4% YoY, core 2.4%. Jobs strong (+162k, 4.1%).",
+    "sources": [
+      "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+      "https://invezz.com/sg/news/2026/09/16/will-bitcoin-price-crash-below-dollar75000-after-the-fed-rate-decision/",
+      "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+      "https://www.babypips.com/news/headline-us-core-cpi-august-2026-results-fed-rate-hike-2026-09-11"
+    ]
+  },
+  "etf": {
+    "score": 55,
+    "note": "BTC ETFs: +$6.2M net for wk ending Sep18 incl. $433M Fri inflow, +$307.3M MTD, after prior wk's -$462.7M. ETH: +$143.8M Sep18, +$13.46B cumulative, +$2.06B/30d but choppy.",
+    "sources": [
+      "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871",
+      "https://www.kucoin.com/news/flash/bitcoin-etfs-record-462m-weekly-outflows-ending-3-week-inflow-streak",
+      "https://finance.yahoo.com/markets/crypto/articles/ethereum-etfs-just-posted-24-170029071.html"
+    ]
+  },
+  "onchain": {
+    "score": 68,
+    "note": "BTC hashrate ~863 EH/s near ATH, price rebounded $75.2k->$81.2k. ETH fees +31.6%, burn +112%, 33% staked. Solana 100% uptime, SEC Innovation Exemption Sep18. Chainlink: 600+ banks via Bottomline CCIP deal.",
+    "sources": [
+      "https://www.thecoinrepublic.com/2026/09/18/btc-crypto-hashrate-skyrockets-again-as-bitcoin-price-reclaims-81000/",
+      "https://www.hokanews.com/2026/09/ethereum-l1-processes-record-2039.html",
+      "https://solana.com/news/solana-changelog-september-18-2026",
+      "https://www.tradingview.com/news/coinmarketcal:084edc4c7094b:0-chainlink-bottomline-partnership-brings-ccip-and-cre-to-600-banks-for-cross-border-payments-03-sep-2026/"
+    ]
+  },
+  "eventRisk": {
+    "points": 5,
+    "note": "Liquid Network $320M BTC hack Sep7, still digesting (-3); recent $116M Coldcard wallet exploit (-1); BTC whipsaw $75.2k->$81.2k post-FOMC (-1). No FOMC/CPI/jobs within 3 days (next Oct2/14/27).",
+    "sources": [
+      "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+      "https://www.trmlabs.com/resources/blog/the-largest-hardware-wallet-exploit-of-2026-inside-the-usd-116-million-coldcard-hack",
+      "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+    ]
+  }
 }
