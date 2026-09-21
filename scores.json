@@ -1,44 +1,44 @@
 {
   "schema": 1,
   "date": "2026-09-21",
-  "generatedAt": "2026-09-20T18:21:41Z",
+  "generatedAt": "2026-09-21T00:08:28Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 15,
-    "note": "Fed hiked to 3.75-4.00% Sep16 (first hike since 2023), signals 1 more 2026 hike, no cuts til 2027. 10Y yield ~5.0-5.04% (highest since 2007). CPI 3.4% YoY, core 2.4%. Jobs strong (+162k, 4.1%).",
+    "score": 18,
+    "note": "Fed hiked 25bp to 3.75-4% Sep16, first hike since 2023, signals rates ~4.1% through 2027, cuts not until 2028-29. 10Y yield 5.01% (Sep18). CPI Aug +0.4% m/m, 3.4% y/y, sticky. Next FOMC Oct28, CPI Oct14.",
     "sources": [
       "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "https://invezz.com/sg/news/2026/09/16/will-bitcoin-price-crash-below-dollar75000-after-the-fed-rate-decision/",
-      "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
-      "https://www.babypips.com/news/headline-us-core-cpi-august-2026-results-fed-rate-hike-2026-09-11"
+      "https://www.bondsavvy.com/fixed-income-investments-blog/fed-dot-plot",
+      "https://www.bls.gov/news.release/cpi.htm",
+      "https://www.cnbc.com/quotes/US10Y"
     ]
   },
   "etf": {
-    "score": 55,
-    "note": "BTC ETFs: +$6.2M net for wk ending Sep18 incl. $433M Fri inflow, +$307.3M MTD, after prior wk's -$462.7M. ETH: +$143.8M Sep18, +$13.46B cumulative, +$2.06B/30d but choppy.",
+    "score": 37,
+    "note": "BTC ETFs: -$450.4M(Sep15), -$295.9M(Sep16, FOMC day), +$159.5M(Sep17 rebound). ETH ETFs: 3-day outflow streak Sep15-17 (-142M,-224.1M,-39.3M), then +$29.4M Sep18. Net trend negative-leaning around Fed decision.",
     "sources": [
-      "https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871",
-      "https://www.kucoin.com/news/flash/bitcoin-etfs-record-462m-weekly-outflows-ending-3-week-inflow-streak",
-      "https://finance.yahoo.com/markets/crypto/articles/ethereum-etfs-just-posted-24-170029071.html"
+      "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-450m-outflows-september-15-2026",
+      "https://hedgeco.net/news/09/2026/spot-bitcoin-and-ethereum-etfs-posted-about-520-million-of-outflows-on-september-16.html",
+      "https://www.kucoin.com/news/flash/ethereum-etfs-record-29-4m-inflows-on-fidelity-s-feth-lead",
+      "https://farside.co.uk/btc/"
     ]
   },
   "onchain": {
-    "score": 68,
-    "note": "BTC hashrate ~863 EH/s near ATH, price rebounded $75.2k->$81.2k. ETH fees +31.6%, burn +112%, 33% staked. Solana 100% uptime, SEC Innovation Exemption Sep18. Chainlink: 600+ banks via Bottomline CCIP deal.",
+    "score": 62,
+    "note": "BTC hashrate ~886-934 EH/s mid-Sep (below 1,440 EH/s 2025 ATH but strong). ETH staking record 32%, 207M wallets, L2 costs cut 90-99% via blobs. SOL gained Chainlink CCIP (unlocks $19B+ assets, JPMorgan tokenized treasuries). LINK expanding institutional/bank CCIP use (Arc Mainnet Sep16).",
     "sources": [
-      "https://www.thecoinrepublic.com/2026/09/18/btc-crypto-hashrate-skyrockets-again-as-bitcoin-price-reclaims-81000/",
-      "https://www.hokanews.com/2026/09/ethereum-l1-processes-record-2039.html",
-      "https://solana.com/news/solana-changelog-september-18-2026",
-      "https://www.tradingview.com/news/coinmarketcal:084edc4c7094b:0-chainlink-bottomline-partnership-brings-ccip-and-cre-to-600-banks-for-cross-border-payments-03-sep-2026/"
+      "https://shattered.io/bitcoin-hashrate-zettahash-difficulty-2026/",
+      "https://www.kucoin.com/news/flash/ethereum-wallets-hit-207m-as-whale-activity-and-staking-drive-eth-to-2-600",
+      "https://financefeeds.com/how-chainlink-ccip-connects-ethereum-solana-and-private-bank-chains-in-2026/",
+      "https://solanacompass.com/news/chainlinks-link-is-now-a-canonical-asset-on-solana-bridged-from-base-via-ccip"
     ]
   },
   "eventRisk": {
-    "points": 5,
-    "note": "Liquid Network $320M BTC hack Sep7, still digesting (-3); recent $116M Coldcard wallet exploit (-1); BTC whipsaw $75.2k->$81.2k post-FOMC (-1). No FOMC/CPI/jobs within 3 days (next Oct2/14/27).",
+    "points": 2,
+    "note": "ETF outflow streak into Sep15-17 (BTC) and Sep15-17 (ETH), now partially reversed by Sep17-18 rebounds (-2). No imminent FOMC (Oct28) or CPI (Oct14) within 3 days; BTC round-trip to ~$81k was gradual, no chase-risk candle.",
     "sources": [
-      "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
-      "https://www.trmlabs.com/resources/blog/the-largest-hardware-wallet-exploit-of-2026-inside-the-usd-116-million-coldcard-hack",
-      "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+      "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-450m-outflows-september-15-2026",
+      "https://hedgeco.net/news/09/2026/spot-bitcoin-and-ethereum-etfs-posted-about-520-million-of-outflows-on-september-16.html"
     ]
   }
 }
