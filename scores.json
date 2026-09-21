@@ -1,44 +1,46 @@
 {
   "schema": 1,
   "date": "2026-09-21",
-  "generatedAt": "2026-09-21T00:08:28Z",
+  "generatedAt": "2026-09-21T01:20:00Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 18,
-    "note": "Fed hiked 25bp to 3.75-4% Sep16, first hike since 2023, signals rates ~4.1% through 2027, cuts not until 2028-29. 10Y yield 5.01% (Sep18). CPI Aug +0.4% m/m, 3.4% y/y, sticky. Next FOMC Oct28, CPI Oct14.",
+    "score": 15,
+    "note": "Fed hiked 25bp to 3.75-4% (first hike since 2023), 16/18 officials see another hike this yr. CPI Aug +0.4% MoM/3.4% YoY. DXY ~100.3 rising. 10Y yield ~5.0%, highest since 2007. Hawkish/tight.",
     "sources": [
       "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "https://www.bondsavvy.com/fixed-income-investments-blog/fed-dot-plot",
-      "https://www.bls.gov/news.release/cpi.htm",
-      "https://www.cnbc.com/quotes/US10Y"
+      "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "https://tradingeconomics.com/united-states/currency",
+      "https://tradingeconomics.com/united-states/government-bond-yield"
     ]
   },
   "etf": {
-    "score": 37,
-    "note": "BTC ETFs: -$450.4M(Sep15), -$295.9M(Sep16, FOMC day), +$159.5M(Sep17 rebound). ETH ETFs: 3-day outflow streak Sep15-17 (-142M,-224.1M,-39.3M), then +$29.4M Sep18. Net trend negative-leaning around Fed decision.",
+    "score": 30,
+    "note": "BTC ETFs: -$462.7M wk Sep8-11 ending 3wk inflow streak; -$450M single-day Sep15 (largest since Jun25) on CLARITY Act failure. ETH ETFs -$140.6M wk Sep14-18, rebounded +$143.8M Sep18.",
     "sources": [
+      "https://www.kucoin.com/news/flash/bitcoin-etfs-record-462m-weekly-outflows-ending-3-week-inflow-streak",
       "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-450m-outflows-september-15-2026",
-      "https://hedgeco.net/news/09/2026/spot-bitcoin-and-ethereum-etfs-posted-about-520-million-of-outflows-on-september-16.html",
-      "https://www.kucoin.com/news/flash/ethereum-etfs-record-29-4m-inflows-on-fidelity-s-feth-lead",
+      "https://www.kucoin.com/news/flash/u-s-spot-crypto-etfs-turn-net-outflow-in-week-of-sept-14-18-ethereum-loses-141m",
       "https://farside.co.uk/btc/"
     ]
   },
   "onchain": {
     "score": 62,
-    "note": "BTC hashrate ~886-934 EH/s mid-Sep (below 1,440 EH/s 2025 ATH but strong). ETH staking record 32%, 207M wallets, L2 costs cut 90-99% via blobs. SOL gained Chainlink CCIP (unlocks $19B+ assets, JPMorgan tokenized treasuries). LINK expanding institutional/bank CCIP use (Arc Mainnet Sep16).",
+    "note": "BTC hashrate/difficulty near ATH (~900-946 EH/s, diff 127.45T) though hashprice low. ETH fees +31.6%, burn +112%, staking 32%. SOL 100% uptime 30mo. LINK: CCIP deal w/ Bottomline (600+ banks).",
     "sources": [
-      "https://shattered.io/bitcoin-hashrate-zettahash-difficulty-2026/",
-      "https://www.kucoin.com/news/flash/ethereum-wallets-hit-207m-as-whale-activity-and-staking-drive-eth-to-2-600",
-      "https://financefeeds.com/how-chainlink-ccip-connects-ethereum-solana-and-private-bank-chains-in-2026/",
-      "https://solanacompass.com/news/chainlinks-link-is-now-a-canonical-asset-on-solana-bridged-from-base-via-ccip"
+      "https://www.coinwarz.com/bitcoin-hashrate",
+      "https://bitcoinethereumnews.com/ethereum/ethereum-news-network-data-shows-rising-fees-and-eth-burns/",
+      "https://www.kucoin.com/news/flash/solana-maintains-100-uptime-for-30-consecutive-months",
+      "https://coinmarketcap.com/cmc-ai/chainlink/latest-updates/"
     ]
   },
   "eventRisk": {
-    "points": 2,
-    "note": "ETF outflow streak into Sep15-17 (BTC) and Sep15-17 (ETH), now partially reversed by Sep17-18 rebounds (-2). No imminent FOMC (Oct28) or CPI (Oct14) within 3 days; BTC round-trip to ~$81k was gradual, no chase-risk candle.",
+    "points": 6,
+    "note": "ETF outflow streak incl. BTC -$450M single-day Sep15 (-3); $320M Liquid Network hack Sep7, white-hat claimed (-3). No imminent FOMC (Oct28) or CPI (Oct14).",
     "sources": [
       "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-450m-outflows-september-15-2026",
-      "https://hedgeco.net/news/09/2026/spot-bitcoin-and-ethereum-etfs-posted-about-520-million-of-outflows-on-september-16.html"
+      "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
+      "https://www.financecalendar.com/fomc-meetings/",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
     ]
   }
 }
