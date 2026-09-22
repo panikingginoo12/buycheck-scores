@@ -1,46 +1,44 @@
 {
   "schema": 1,
-  "date": "2026-09-21",
-  "generatedAt": "2026-09-21T01:20:00Z",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T01:10:26Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 15,
-    "note": "Fed hiked 25bp to 3.75-4% (first hike since 2023), 16/18 officials see another hike this yr. CPI Aug +0.4% MoM/3.4% YoY. DXY ~100.3 rising. 10Y yield ~5.0%, highest since 2007. Hawkish/tight.",
+    "score": 25,
+    "note": "Fed hiked 25bp to 3.75-4% Sep16 (first hike since 2023), signaled more tightening possible; DXY ~100.3-100.4 (+1%/wk); 10Y ~4.96-5.01%; Aug jobs +162k, UE 4.1%. Next FOMC Oct28, CPI Oct14, jobs Oct2 - none imminent.",
     "sources": [
       "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "https://www.bls.gov/news.release/cpi.nr0.htm",
-      "https://tradingeconomics.com/united-states/currency",
-      "https://tradingeconomics.com/united-states/government-bond-yield"
+      "https://fedratecalc.com/fomc-meeting-schedule/",
+      "https://www.fxstreet.com/news/us-dollar-index-trades-firmly-near-10035-ahead-of-fed-speeches-202609210733",
+      "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
     ]
   },
   "etf": {
-    "score": 30,
-    "note": "BTC ETFs: -$462.7M wk Sep8-11 ending 3wk inflow streak; -$450M single-day Sep15 (largest since Jun25) on CLARITY Act failure. ETH ETFs -$140.6M wk Sep14-18, rebounded +$143.8M Sep18.",
+    "score": 45,
+    "note": "BTC ETF flows choppy: -$450M/-$296M Sep15-16 then +$159M/+$433M Sep17-18. ETH ETFs posted first weekly net outflow (-$140M to Sep18) after 4 straight weeks of inflows.",
     "sources": [
-      "https://www.kucoin.com/news/flash/bitcoin-etfs-record-462m-weekly-outflows-ending-3-week-inflow-streak",
-      "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-450m-outflows-september-15-2026",
-      "https://www.kucoin.com/news/flash/u-s-spot-crypto-etfs-turn-net-outflow-in-week-of-sept-14-18-ethereum-loses-141m",
-      "https://farside.co.uk/btc/"
+      "https://farside.co.uk/btc/",
+      "https://farside.co.uk/eth/",
+      "https://x.com/FarsideUK/status/2096082059425087979"
     ]
   },
   "onchain": {
-    "score": 62,
-    "note": "BTC hashrate/difficulty near ATH (~900-946 EH/s, diff 127.45T) though hashprice low. ETH fees +31.6%, burn +112%, staking 32%. SOL 100% uptime 30mo. LINK: CCIP deal w/ Bottomline (600+ banks).",
+    "score": 68,
+    "note": "BTC hashrate ~900 EH/s near ATH, LTH supply at fresh ATH shrinking liquid float. ETH active addrs +5.2%. SOL monthly txns >5B ATH, addrs +7.5%, upgrades shipped. LINK: Arc Mainnet live, ETF inflows resumed.",
     "sources": [
-      "https://www.coinwarz.com/bitcoin-hashrate",
-      "https://bitcoinethereumnews.com/ethereum/ethereum-news-network-data-shows-rising-fees-and-eth-burns/",
-      "https://www.kucoin.com/news/flash/solana-maintains-100-uptime-for-30-consecutive-months",
-      "https://coinmarketcap.com/cmc-ai/chainlink/latest-updates/"
+      "https://www.kucoin.com/news/flash/bitcoin-price-rise-sparks-slight-increase-in-long-term-holder-activity-2026-expected-to-remain-calm",
+      "https://news.bitcoin.com/bitcoin-long-term-holder-supply-all-time-high-2026/",
+      "https://www.thecoinrepublic.com/2026/09/19/solana-price-breaks-descending-trendline-as-network-activity-hits-all-time-high/",
+      "https://bitcoinethereumnews.com/finance/chainlink-etf-bags-first-inflow-in-september-as-network-activity-hits-new-high/"
     ]
   },
   "eventRisk": {
     "points": 6,
-    "note": "ETF outflow streak incl. BTC -$450M single-day Sep15 (-3); $320M Liquid Network hack Sep7, white-hat claimed (-3). No imminent FOMC (Oct28) or CPI (Oct14).",
+    "note": "BTC +5.3% 1-day candle (Sep20-21) w/ $300M short-squeeze buying (-3); Liquid Network $320M hack still paused, $47M unrecovered, plus 2 mining pools ~45% of blocks/3 reorgs in a month (-3)",
     "sources": [
-      "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-450m-outflows-september-15-2026",
-      "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys",
-      "https://www.financecalendar.com/fomc-meetings/",
-      "https://www.bls.gov/news.release/cpi.nr0.htm"
+      "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+      "https://en.cryptonomist.ch/2026/09/08/liquid-network-hack/",
+      "https://shattered.io/bitcoin-mining-pool-reorg-centralization-2026/"
     ]
   }
 }
