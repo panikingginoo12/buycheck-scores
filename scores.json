@@ -1,44 +1,42 @@
 {
   "schema": 1,
-  "date": "2026-09-22",
-  "generatedAt": "2026-09-22T01:10:26Z",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T01:15:00Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 25,
-    "note": "Fed hiked 25bp to 3.75-4% Sep16 (first hike since 2023), signaled more tightening possible; DXY ~100.3-100.4 (+1%/wk); 10Y ~4.96-5.01%; Aug jobs +162k, UE 4.1%. Next FOMC Oct28, CPI Oct14, jobs Oct2 - none imminent.",
+    "score": 28,
+    "note": "Fed hiked 25bp to 3.75-4.00% on Sep 16 (first hike since 2023), dots hold ~4.0-4.25% thru 2027. Aug CPI +0.4% m/m, 3.4% y/y. 10Y yield ~4.96-4.98%, rising on hawkish Fed talk. Headwind.",
     "sources": [
-      "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "https://fedratecalc.com/fomc-meeting-schedule/",
-      "https://www.fxstreet.com/news/us-dollar-index-trades-firmly-near-10035-ahead-of-fed-speeches-202609210733",
-      "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+      "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+      "https://tradingeconomics.com/united-states/government-bond-yield"
     ]
   },
   "etf": {
-    "score": 45,
-    "note": "BTC ETF flows choppy: -$450M/-$296M Sep15-16 then +$159M/+$433M Sep17-18. ETH ETFs posted first weekly net outflow (-$140M to Sep18) after 4 straight weeks of inflows.",
+    "score": 42,
+    "note": "Choppy: +$730.8M Sep3, but outflows Sep8-11 (-$462.7M) and Sep15-16 (-$746.3M two-day), brief +$433M Sep18, then -$450.4M Sep21. ETH ETFs comparatively resilient (+$196.9M mid-Sep).",
     "sources": [
       "https://farside.co.uk/btc/",
-      "https://farside.co.uk/eth/",
-      "https://x.com/FarsideUK/status/2096082059425087979"
+      "https://www.crowdfundinsider.com/2026/09/310116-bitcoin-etfs-see-over-460m-in-net-weekly-outflows-ethereum-etfs-attract-nearly-200m-in-total-inflows/",
+      "https://hedgeco.net/news/09/2026/spot-bitcoin-etfs-posted-a-236-5-million-net-outflow-on-september-1.html"
     ]
   },
   "onchain": {
-    "score": 68,
-    "note": "BTC hashrate ~900 EH/s near ATH, LTH supply at fresh ATH shrinking liquid float. ETH active addrs +5.2%. SOL monthly txns >5B ATH, addrs +7.5%, upgrades shipped. LINK: Arc Mainnet live, ETF inflows resumed.",
+    "score": 62,
+    "note": "BTC hashrate ATH ~908 EH/s, LTH supply ATH 63.3%, but exchange reserves rising (~702.9k BTC, highest since early 2026). ETH: $120B staked, L2 fees near-zero, activity +68% y/y. SOL 100% uptime, $16B stablecoins. LINK: Bottomline/SWIFT, Infosys, DTCC deals.",
     "sources": [
-      "https://www.kucoin.com/news/flash/bitcoin-price-rise-sparks-slight-increase-in-long-term-holder-activity-2026-expected-to-remain-calm",
       "https://news.bitcoin.com/bitcoin-long-term-holder-supply-all-time-high-2026/",
-      "https://www.thecoinrepublic.com/2026/09/19/solana-price-breaks-descending-trendline-as-network-activity-hits-all-time-high/",
-      "https://bitcoinethereumnews.com/finance/chainlink-etf-bags-first-inflow-in-september-as-network-activity-hits-new-high/"
+      "https://cryptoslate.com/l2-growth-and-120-billion-in-staking-hide-ethereums-supply-reality/",
+      "https://solanacompass.com/",
+      "https://finance.yahoo.com/news/chainlink-extends-lead-onchain-finance-162144136.html"
     ]
   },
   "eventRisk": {
-    "points": 6,
-    "note": "BTC +5.3% 1-day candle (Sep20-21) w/ $300M short-squeeze buying (-3); Liquid Network $320M hack still paused, $47M unrecovered, plus 2 mining pools ~45% of blocks/3 reorgs in a month (-3)",
+    "points": 5,
+    "note": "BTC +10% in a week, short squeeze/$1B+ liquidations Sep22 above 50-week MA (-3, chasing risk); ETF outflow streaks Sep15-16 & Sep21 (-2). No imminent FOMC/CPI/jobs (next Oct 2/14).",
     "sources": [
-      "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
-      "https://en.cryptonomist.ch/2026/09/08/liquid-network-hack/",
-      "https://shattered.io/bitcoin-mining-pool-reorg-centralization-2026/"
+      "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-22-2026-crypto-prices-continue-to-surge-to-prices-last-seen-in-january-114724449.html",
+      "https://farside.co.uk/btc/"
     ]
   }
 }
