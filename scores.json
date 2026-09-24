@@ -1,42 +1,44 @@
 {
   "schema": 1,
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-23T01:15:00Z",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T01:12:52Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 28,
-    "note": "Fed hiked 25bp to 3.75-4.00% on Sep 16 (first hike since 2023), dots hold ~4.0-4.25% thru 2027. Aug CPI +0.4% m/m, 3.4% y/y. 10Y yield ~4.96-4.98%, rising on hawkish Fed talk. Headwind.",
+    "score": 20,
+    "note": "Fed hiked to 3.75-4.00% on Sep16 (first hike since 2023, SEP dots ~4.1% end-2026). Aug CPI 3.4% y/y, core 2.4%, accelerating. 10Y yield 5.12%, highest since 2007. DXY ~100.7, 8-wk high. Hawkish/tightening.",
     "sources": [
-      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+      "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
       "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
-      "https://tradingeconomics.com/united-states/government-bond-yield"
+      "https://tradingeconomics.com/united-states/government-bond-yield",
+      "https://tradingeconomics.com/united-states/currency"
     ]
   },
   "etf": {
-    "score": 42,
-    "note": "Choppy: +$730.8M Sep3, but outflows Sep8-11 (-$462.7M) and Sep15-16 (-$746.3M two-day), brief +$433M Sep18, then -$450.4M Sep21. ETH ETFs comparatively resilient (+$196.9M mid-Sep).",
+    "score": 65,
+    "note": "BTC ETFs: record $999M single-day inflow Sep21 (largest 2026 day), $4.6B in since Aug19, after Sep8-11 outflows (-$462.7M). ETH ETFs mixed: -$140M outflow wk to Sep18, but +$2.06B over trailing 30d.",
     "sources": [
-      "https://farside.co.uk/btc/",
-      "https://www.crowdfundinsider.com/2026/09/310116-bitcoin-etfs-see-over-460m-in-net-weekly-outflows-ethereum-etfs-attract-nearly-200m-in-total-inflows/",
-      "https://hedgeco.net/news/09/2026/spot-bitcoin-etfs-posted-a-236-5-million-net-outflow-on-september-1.html"
+      "https://www.bloomberg.com/news/articles/2026-09-23/bitcoin-etf-flows-turn-positive-after-4-6-billion-rebound",
+      "https://www.kucoin.com/news/flash/bitcoin-etfs-record-462m-weekly-outflows-ending-3-week-inflow-streak",
+      "https://www.techtimes.com/articles/327946/20260923/record-bitcoin-etf-inflows-short-squeeze-drive-btc-eight-month-high.htm"
     ]
   },
   "onchain": {
-    "score": 62,
-    "note": "BTC hashrate ATH ~908 EH/s, LTH supply ATH 63.3%, but exchange reserves rising (~702.9k BTC, highest since early 2026). ETH: $120B staked, L2 fees near-zero, activity +68% y/y. SOL 100% uptime, $16B stablecoins. LINK: Bottomline/SWIFT, Infosys, DTCC deals.",
+    "score": 65,
+    "note": "BTC hashrate ~934-1001 EH/s but difficulty -18.3% from Oct'25 peak, rare y/y decline. ETH: 33% staked (~$120B), L2 TVL $40.4B, EIP-4844 fees near-zero. SOL: 250ms-slot upgrade live, price at 8-mo high. LINK: new CCIP deals w/ BitGo, Bottomline; Fed meeting Sep24.",
     "sources": [
-      "https://news.bitcoin.com/bitcoin-long-term-holder-supply-all-time-high-2026/",
+      "https://cryptopotato.com/bitcoin-records-second-largest-difficulty-drop-of-2026-as-hash-rate-remains-below-1-zh-s/",
       "https://cryptoslate.com/l2-growth-and-120-billion-in-staking-hide-ethereums-supply-reality/",
-      "https://solanacompass.com/",
-      "https://finance.yahoo.com/news/chainlink-extends-lead-onchain-finance-162144136.html"
+      "https://solana.com/news/solana-changelog-september-18-2026",
+      "https://blockonomi.com/chainlink-link-surges-on-sec-tokenization-approval-and-banking-integration"
     ]
   },
   "eventRisk": {
-    "points": 5,
-    "note": "BTC +10% in a week, short squeeze/$1B+ liquidations Sep22 above 50-week MA (-3, chasing risk); ETF outflow streaks Sep15-16 & Sep21 (-2). No imminent FOMC/CPI/jobs (next Oct 2/14).",
+    "points": 6,
+    "note": "BTC +36% since Aug18, +11% this week to 8-mo high (chasing risk, -2); short squeeze/leverage-driven rally (-2); Liquid Network $320M BTC hack Sep6-7 still unresolved (-2). No imminent FOMC (Oct28) or CPI.",
     "sources": [
-      "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-22-2026-crypto-prices-continue-to-surge-to-prices-last-seen-in-january-114724449.html",
-      "https://farside.co.uk/btc/"
+      "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-23-2026-crypto-prices-open-near-8-month-highs-is-the-crypto-winter-over-113908671.html",
+      "https://www.techtimes.com/articles/327946/20260923/record-bitcoin-etf-inflows-short-squeeze-drive-btc-eight-month-high.htm",
+      "https://www.bloomberg.com/news/articles/2026-09-07/bitcoin-network-says-320-million-stolen-in-latest-crypto-hack"
     ]
   }
 }
