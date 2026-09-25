@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "date": "2026-09-24",
-  "generatedAt": "2026-09-24T01:12:52Z",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T01:11:14Z",
   "model": "claude-sonnet-5",
   "macro": {
     "score": 20,
-    "note": "Fed hiked to 3.75-4.00% on Sep16 (first hike since 2023, SEP dots ~4.1% end-2026). Aug CPI 3.4% y/y, core 2.4%, accelerating. 10Y yield 5.12%, highest since 2007. DXY ~100.7, 8-wk high. Hawkish/tightening.",
+    "note": "Fed hiked to 3.75-4.00% Sep16 (first hike since 2023). Aug CPI 3.4% y/y, still elevated. 10Y yield 5.12%, highest since 2007. DXY ~101.1, +2.2% in a month. ~64% odds of Oct28 hike. Hawkish/tightening.",
     "sources": [
       "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
       "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
@@ -14,31 +14,30 @@
     ]
   },
   "etf": {
-    "score": 65,
-    "note": "BTC ETFs: record $999M single-day inflow Sep21 (largest 2026 day), $4.6B in since Aug19, after Sep8-11 outflows (-$462.7M). ETH ETFs mixed: -$140M outflow wk to Sep18, but +$2.06B over trailing 30d.",
+    "score": 70,
+    "note": "BTC ETFs on 5-day inflow streak, +$2.65B total incl $999M Sep21 (largest 2026 day) and +$347M Sep23. ETH ETFs 4th straight inflow day, +$105M, cumulative $13.8B. Broad institutional buying.",
     "sources": [
-      "https://www.bloomberg.com/news/articles/2026-09-23/bitcoin-etf-flows-turn-positive-after-4-6-billion-rebound",
-      "https://www.kucoin.com/news/flash/bitcoin-etfs-record-462m-weekly-outflows-ending-3-week-inflow-streak",
-      "https://www.techtimes.com/articles/327946/20260923/record-bitcoin-etf-inflows-short-squeeze-drive-btc-eight-month-high.htm"
+      "https://coinpaper.com/36194/bitcoin-etf-inflow-streak-hits-5-days-as-btc-falls-below-84000",
+      "https://www.techflowpost.com/en-US/newsletter/137609",
+      "https://blockonomi.com/bitcoin-btc-price-holds-near-84k-as-etf-inflows-extend-to-five-days"
     ]
   },
   "onchain": {
-    "score": 65,
-    "note": "BTC hashrate ~934-1001 EH/s but difficulty -18.3% from Oct'25 peak, rare y/y decline. ETH: 33% staked (~$120B), L2 TVL $40.4B, EIP-4844 fees near-zero. SOL: 250ms-slot upgrade live, price at 8-mo high. LINK: new CCIP deals w/ BitGo, Bottomline; Fed meeting Sep24.",
+    "score": 57,
+    "note": "BTC hashrate ~900EH/s but 2 pools ~45% share, 3rd reorg in a month (Sep11) - centralization risk. ETH: $120B staked, L2 TVL $40.4B. SOL: 30mo 100% uptime. LINK: Infosys/Bottomline CCIP deals.",
     "sources": [
-      "https://cryptopotato.com/bitcoin-records-second-largest-difficulty-drop-of-2026-as-hash-rate-remains-below-1-zh-s/",
+      "https://shattered.io/bitcoin-mining-pool-reorg-centralization-2026/",
       "https://cryptoslate.com/l2-growth-and-120-billion-in-staking-hide-ethereums-supply-reality/",
       "https://solana.com/news/solana-changelog-september-18-2026",
-      "https://blockonomi.com/chainlink-link-surges-on-sec-tokenization-approval-and-banking-integration"
+      "https://www.tradingview.com/news/coinmarketcal:b30b37611094b:0-chainlink-infosys-partnership-standardizes-ccip-and-platform-adoption-for-institutions-22-sep-2026/"
     ]
   },
   "eventRisk": {
-    "points": 6,
-    "note": "BTC +36% since Aug18, +11% this week to 8-mo high (chasing risk, -2); short squeeze/leverage-driven rally (-2); Liquid Network $320M BTC hack Sep6-7 still unresolved (-2). No imminent FOMC (Oct28) or CPI.",
+    "points": 7,
+    "note": "Bitget hack $351.6M Sep24, withdrawals halted, Sept now costliest hack month of 2026 (-5). Major SOL ecosystem token unlocks in Sept incl TRUMP/PUMP (-2).",
     "sources": [
-      "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-23-2026-crypto-prices-open-near-8-month-highs-is-the-crypto-winter-over-113908671.html",
-      "https://www.techtimes.com/articles/327946/20260923/record-bitcoin-etf-inflows-short-squeeze-drive-btc-eight-month-high.htm",
-      "https://www.bloomberg.com/news/articles/2026-09-07/bitcoin-network-says-320-million-stolen-in-latest-crypto-hack"
+      "https://cryptoslate.com/bitgets-351-6-million-hack-pushes-september-crypto-losses-to-2026-high/",
+      "https://solanafloor.com/news/solana-ecosystem-token-unlocks-what-to-watch-in-september-2026"
     ]
   }
 }
