@@ -1,43 +1,42 @@
 {
   "schema": 1,
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-25T01:11:14Z",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T01:09:42Z",
   "model": "claude-sonnet-5",
   "macro": {
     "score": 20,
-    "note": "Fed hiked to 3.75-4.00% Sep16 (first hike since 2023). Aug CPI 3.4% y/y, still elevated. 10Y yield 5.12%, highest since 2007. DXY ~101.1, +2.2% in a month. ~64% odds of Oct28 hike. Hawkish/tightening.",
+    "note": "FOMC hiked 25bp Sep 16 to 3.75-4.00% (hawkish surprise, not a cut); CPI Aug +0.4% MoM, 3.4% YoY, still elevated; 10Y yield spiked ~5.17% (bond rout, highs since 2004 for 30Y); DXY ~101.",
     "sources": [
-      "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
-      "https://tradingeconomics.com/united-states/government-bond-yield",
-      "https://tradingeconomics.com/united-states/currency"
+      "https://fedratecalc.com/fomc-meeting-schedule/september-2026/",
+      "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+      "https://tradingeconomics.com/united-states/government-bond-yield"
     ]
   },
   "etf": {
-    "score": 70,
-    "note": "BTC ETFs on 5-day inflow streak, +$2.65B total incl $999M Sep21 (largest 2026 day) and +$347M Sep23. ETH ETFs 4th straight inflow day, +$105M, cumulative $13.8B. Broad institutional buying.",
+    "score": 72,
+    "note": "BTC spot ETFs reversed early-Sep outflows: $2.3B net over Sep17-22, record $999M single day Sep21, $2.56B MTD after $3.52B in Aug; IBIT +$162.6M Sep25.",
     "sources": [
-      "https://coinpaper.com/36194/bitcoin-etf-inflow-streak-hits-5-days-as-btc-falls-below-84000",
-      "https://www.techflowpost.com/en-US/newsletter/137609",
-      "https://blockonomi.com/bitcoin-btc-price-holds-near-84k-as-etf-inflows-extend-to-five-days"
+      "https://farside.co.uk/btc/",
+      "https://www.cryptotimes.io/2026/09/24/inside-bitcoins-september-2026-rally-btc-reclaiming-87k-2b-in-etf-inflows-and-a-short-squeeze/",
+      "https://x.com/FarsideUK/status/2103330213262188923"
     ]
   },
   "onchain": {
-    "score": 57,
-    "note": "BTC hashrate ~900EH/s but 2 pools ~45% share, 3rd reorg in a month (Sep11) - centralization risk. ETH: $120B staked, L2 TVL $40.4B. SOL: 30mo 100% uptime. LINK: Infosys/Bottomline CCIP deals.",
+    "score": 56,
+    "note": "BTC hashrate ~900-950EH/s, 316 days below peak (miners diverting to AI) but difficulty +1.31%, hashprice +22% early Sep; ETH/LINK strong institutional CCIP adoption (Circle Arc mainnet w/ BlackRock, DTCC, Visa validators).",
     "sources": [
-      "https://shattered.io/bitcoin-mining-pool-reorg-centralization-2026/",
-      "https://cryptoslate.com/l2-growth-and-120-billion-in-staking-hide-ethereums-supply-reality/",
-      "https://solana.com/news/solana-changelog-september-18-2026",
-      "https://www.tradingview.com/news/coinmarketcal:b30b37611094b:0-chainlink-infosys-partnership-standardizes-ccip-and-platform-adoption-for-institutions-22-sep-2026/"
+      "https://www.cryptotimes.io/2026/09/03/bitcoin-hashrate-marks-316-days-below-peak-as-miners-redirect-power-to-ai/",
+      "https://cryptolexicon.org/en/blog/bitcoin-difficulty-rise-hashprice-jump-september-2026/",
+      "https://coinstats.app/ai/a/investment-analysis-chainlink"
     ]
   },
   "eventRisk": {
-    "points": 7,
-    "note": "Bitget hack $351.6M Sep24, withdrawals halted, Sept now costliest hack month of 2026 (-5). Major SOL ecosystem token unlocks in Sept incl TRUMP/PUMP (-2).",
+    "points": 8,
+    "note": "Bitget hot-wallet hack ~$351.6M Sep24 (-5); BTC ~10% weekly gain to 8-month high $87.3k Sep23 creates chasing risk (-3). Next FOMC Oct27-28, next CPI Oct14, not imminent.",
     "sources": [
-      "https://cryptoslate.com/bitgets-351-6-million-hack-pushes-september-crypto-losses-to-2026-high/",
-      "https://solanafloor.com/news/solana-ecosystem-token-unlocks-what-to-watch-in-september-2026"
+      "https://www.trmlabs.com/resources/blog/bitget-loses-usd-3516-million-in-hot-wallet-breach-in-likely-north-korea-attack",
+      "https://www.cryptotimes.io/2026/09/24/inside-bitcoins-september-2026-rally-btc-reclaiming-87k-2b-in-etf-inflows-and-a-short-squeeze/",
+      "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html"
     ]
   }
 }
