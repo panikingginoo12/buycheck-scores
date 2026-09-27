@@ -1,42 +1,46 @@
 {
   "schema": 1,
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T01:09:42Z",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T01:10:40Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 20,
-    "note": "FOMC hiked 25bp Sep 16 to 3.75-4.00% (hawkish surprise, not a cut); CPI Aug +0.4% MoM, 3.4% YoY, still elevated; 10Y yield spiked ~5.17% (bond rout, highs since 2004 for 30Y); DXY ~101.",
+    "score": 22,
+    "note": "Fed hiked to 3.75-4% Sep16 (hawkish, inflation-driven); next FOMC Oct27-28. CPI Aug +3.4% YoY, core accel 0.3%m/m. 10Y ~5.17% (highest since 2007), DXY ~101 (2mo high, 4-session rally).",
     "sources": [
-      "https://fedratecalc.com/fomc-meeting-schedule/september-2026/",
-      "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
-      "https://tradingeconomics.com/united-states/government-bond-yield"
+      "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+      "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "https://tradingeconomics.com/united-states/government-bond-yield",
+      "https://fedratecalc.com/fomc-meeting-schedule/"
     ]
   },
   "etf": {
-    "score": 72,
-    "note": "BTC spot ETFs reversed early-Sep outflows: $2.3B net over Sep17-22, record $999M single day Sep21, $2.56B MTD after $3.52B in Aug; IBIT +$162.6M Sep25.",
+    "score": 68,
+    "note": "BTC spot ETFs: 7-day inflow streak, ~$2.98B since Sep17 (incl. $999M single-day record Sep21); 2026 YTD flow turned positive ($886.8M) from -$5.69B July low. ETH ETF flows flat/muted.",
     "sources": [
       "https://farside.co.uk/btc/",
-      "https://www.cryptotimes.io/2026/09/24/inside-bitcoins-september-2026-rally-btc-reclaiming-87k-2b-in-etf-inflows-and-a-short-squeeze/",
-      "https://x.com/FarsideUK/status/2103330213262188923"
+      "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+      "https://www.thecoinrepublic.com/2026/09/25/bitcoin-etf-inflows-hit-2-8b-as-btc-price-stalls-below-87k/",
+      "https://farside.co.uk/eth/"
     ]
   },
   "onchain": {
-    "score": 56,
-    "note": "BTC hashrate ~900-950EH/s, 316 days below peak (miners diverting to AI) but difficulty +1.31%, hashprice +22% early Sep; ETH/LINK strong institutional CCIP adoption (Circle Arc mainnet w/ BlackRock, DTCC, Visa validators).",
+    "score": 64,
+    "note": "BTC hashrate near ATH (~900-1000 EH/s), strong security despite mining-pool centralization/reorg concerns. Stablecoin supply growing (ETH $145.9B, SOL ATH $17.3B); ETH L2s healthy; SOL near 2026 highs.",
     "sources": [
-      "https://www.cryptotimes.io/2026/09/03/bitcoin-hashrate-marks-316-days-below-peak-as-miners-redirect-power-to-ai/",
-      "https://cryptolexicon.org/en/blog/bitcoin-difficulty-rise-hashprice-jump-september-2026/",
-      "https://coinstats.app/ai/a/investment-analysis-chainlink"
+      "https://www.coinwarz.com/bitcoin-hashrate",
+      "https://solanacompass.com/news/solana-stablecoin-supply-hits-new-all-time-high-of-173b",
+      "https://shattered.io/bitcoin-mining-pool-reorg-centralization-2026/",
+      "https://www.mexc.com/learn/article/solana-vs-ethereum-l2s-2026-fundamental-analysis-tvl-revenue-stablecoin-metrics/1"
     ]
   },
   "eventRisk": {
     "points": 8,
-    "note": "Bitget hot-wallet hack ~$351.6M Sep24 (-5); BTC ~10% weekly gain to 8-month high $87.3k Sep23 creates chasing risk (-3). Next FOMC Oct27-28, next CPI Oct14, not imminent.",
+    "note": "Bitget hack $351.6M (Sep24, NK-linked, 2026's largest hack) -6; rising leverage (OI +7.5%/30d, $290M liquidation Sep21) -2. No imminent FOMC/CPI (Oct27-28/Oct14); no ETF outflow streak.",
     "sources": [
-      "https://www.trmlabs.com/resources/blog/bitget-loses-usd-3516-million-in-hot-wallet-breach-in-likely-north-korea-attack",
-      "https://www.cryptotimes.io/2026/09/24/inside-bitcoins-september-2026-rally-btc-reclaiming-87k-2b-in-etf-inflows-and-a-short-squeeze/",
-      "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html"
+      "https://www.bloomberg.com/news/articles/2026-09-25/bitget-hack-pushes-north-korean-crypto-haul-past-1-billion",
+      "https://cryptoslate.com/bitgets-351-6-million-hack-pushes-september-crypto-losses-to-2026-high/",
+      "https://www.bloomberg.com/news/articles/2026-09-08/bitcoin-s-latest-hack-puts-key-crypto-vulnerability-in-spotlight",
+      "https://www.briefs.co/news/crypto-market-tops-3-trillion-as-leveraged-bets-pile-up/"
     ]
   }
 }
