@@ -1,46 +1,44 @@
 {
   "schema": 1,
-  "date": "2026-09-27",
-  "generatedAt": "2026-09-27T01:10:40Z",
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T01:10:21Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 22,
-    "note": "Fed hiked to 3.75-4% Sep16 (hawkish, inflation-driven); next FOMC Oct27-28. CPI Aug +3.4% YoY, core accel 0.3%m/m. 10Y ~5.17% (highest since 2007), DXY ~101 (2mo high, 4-session rally).",
+    "score": 20,
+    "note": "Fed hiked to 3.75-4% Sep16 (hawkish); 16/18 officials see 1+ more hike in 2026. 10Y ~5.17-5.20% (2007 highs); ~66% odds of Oct hike. CPI Aug +3.4%YoY/core+2.4%. Next CPI Oct14, FOMC Oct27-28.",
     "sources": [
       "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "https://www.bls.gov/news.release/cpi.nr0.htm",
       "https://tradingeconomics.com/united-states/government-bond-yield",
-      "https://fedratecalc.com/fomc-meeting-schedule/"
+      "https://fedratecalc.com/fomc-meeting-schedule/",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
     ]
   },
   "etf": {
-    "score": 68,
-    "note": "BTC spot ETFs: 7-day inflow streak, ~$2.98B since Sep17 (incl. $999M single-day record Sep21); 2026 YTD flow turned positive ($886.8M) from -$5.69B July low. ETH ETF flows flat/muted.",
+    "score": 70,
+    "note": "BTC spot ETFs took in ~$2.4B in week to Sep25 (strongest since Oct2025), flipping 2026 YTD flows positive; IBIT +$97M Sep26. Consistent multi-day inflow trend continues from prior week's streak.",
     "sources": [
+      "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-notch-seven-day-170103940.html",
       "https://farside.co.uk/btc/",
-      "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
-      "https://www.thecoinrepublic.com/2026/09/25/bitcoin-etf-inflows-hit-2-8b-as-btc-price-stalls-below-87k/",
-      "https://farside.co.uk/eth/"
+      "https://x.com/FarsideUK/status/2103692362073493994"
     ]
   },
   "onchain": {
-    "score": 64,
-    "note": "BTC hashrate near ATH (~900-1000 EH/s), strong security despite mining-pool centralization/reorg concerns. Stablecoin supply growing (ETH $145.9B, SOL ATH $17.3B); ETH L2s healthy; SOL near 2026 highs.",
+    "score": 62,
+    "note": "BTC hashrate 926.4 EH/s, near ATH, strong network security. LINK CCIP live on Solana (cbLTC, $19B+ assets unlocked), Chainlink at Sibos Sep28-Oct1. BTC price ~$84.6k, stalling despite hashrate strength.",
     "sources": [
       "https://www.coinwarz.com/bitcoin-hashrate",
-      "https://solanacompass.com/news/solana-stablecoin-supply-hits-new-all-time-high-of-173b",
-      "https://shattered.io/bitcoin-mining-pool-reorg-centralization-2026/",
-      "https://www.mexc.com/learn/article/solana-vs-ethereum-l2s-2026-fundamental-analysis-tvl-revenue-stablecoin-metrics/1"
+      "https://thedefiant.io/news/defi/chainlink-ccip-launches-on-solana-mainnet-unlocking-18-billion-assets-boosting-0bacc12a",
+      "https://financefeeds.com/how-chainlink-ccip-connects-ethereum-solana-and-private-bank-chains-in-2026/",
+      "https://www.coindesk.com/price/bitcoin"
     ]
   },
   "eventRisk": {
-    "points": 8,
-    "note": "Bitget hack $351.6M (Sep24, NK-linked, 2026's largest hack) -6; rising leverage (OI +7.5%/30d, $290M liquidation Sep21) -2. No imminent FOMC/CPI (Oct27-28/Oct14); no ETF outflow streak.",
+    "points": 5,
+    "note": "Bitget $351.6M hack (Sep24, hot-wallet only) still settling, aftermath/contagion risk (-3); elevated leverage/OI from recent liquidation events (-2). No imminent FOMC(Oct27-28)/CPI(Oct14) or outflow streak.",
     "sources": [
-      "https://www.bloomberg.com/news/articles/2026-09-25/bitget-hack-pushes-north-korean-crypto-haul-past-1-billion",
-      "https://cryptoslate.com/bitgets-351-6-million-hack-pushes-september-crypto-losses-to-2026-high/",
-      "https://www.bloomberg.com/news/articles/2026-09-08/bitcoin-s-latest-hack-puts-key-crypto-vulnerability-in-spotlight",
-      "https://www.briefs.co/news/crypto-market-tops-3-trillion-as-leveraged-bets-pile-up/"
+      "https://coinpedia.org/news/bitget-hit-by-350-million-exploit-largest-crypto-hack-of-2026/",
+      "https://fedratecalc.com/fomc-meeting-schedule/",
+      "https://www.bls.gov/news.release/cpi.nr0.htm"
     ]
   }
 }
