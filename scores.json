@@ -1,44 +1,43 @@
 {
   "schema": 1,
-  "date": "2026-09-28",
-  "generatedAt": "2026-09-28T01:10:21Z",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T01:09:54Z",
   "model": "claude-sonnet-5",
   "macro": {
-    "score": 20,
-    "note": "Fed hiked to 3.75-4% Sep16 (hawkish); 16/18 officials see 1+ more hike in 2026. 10Y ~5.17-5.20% (2007 highs); ~66% odds of Oct hike. CPI Aug +3.4%YoY/core+2.4%. Next CPI Oct14, FOMC Oct27-28.",
+    "score": 15,
+    "note": "Fed hiked to 3.75-4% Sep16; ~65% odds of another hike Oct28 (12-0 vote). 10Y yield 5.21-5.24%, highest in ~19yrs. DXY rebounded to ~101.1 from Sep lows near 99. CPI Aug 3.4%YoY; Oct14 print forecast 3.7% (rising). Hawkish backdrop.",
     "sources": [
-      "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "https://tradingeconomics.com/united-states/government-bond-yield",
       "https://fedratecalc.com/fomc-meeting-schedule/",
-      "https://www.bls.gov/news.release/cpi.nr0.htm"
+      "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+      "https://blog.oneuptrader.com/analysis/technical-analysis/us-dollar-index-dxy-technical-analysis-28-september-2026/",
+      "https://www.financecalendar.com/event/us-cpi-report-september-2026/"
     ]
   },
   "etf": {
-    "score": 70,
-    "note": "BTC spot ETFs took in ~$2.4B in week to Sep25 (strongest since Oct2025), flipping 2026 YTD flows positive; IBIT +$97M Sep26. Consistent multi-day inflow trend continues from prior week's streak.",
+    "score": 72,
+    "note": "BTC spot ETFs +$2.4B in week to Sep25, largest since Oct2025, flipping 2026 YTD flows positive after -$5.8B mid-July trough. ETH ETFs +$690M reversing prior outflow. SOL ETFs record $86.7M inflow Fri. Daily pace tapering late week.",
     "sources": [
-      "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-notch-seven-day-170103940.html",
-      "https://farside.co.uk/btc/",
-      "https://x.com/FarsideUK/status/2103692362073493994"
+      "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944",
+      "https://247wallst.com/investing/cryptocurrency/2026/09/26/bitcoin-etf-inflows-reach-2-4-billion-this-week-but-daily-figures-decline-is-the-momentum-fading/",
+      "https://farside.co.uk/btc/"
     ]
   },
   "onchain": {
-    "score": 62,
-    "note": "BTC hashrate 926.4 EH/s, near ATH, strong network security. LINK CCIP live on Solana (cbLTC, $19B+ assets unlocked), Chainlink at Sibos Sep28-Oct1. BTC price ~$84.6k, stalling despite hashrate strength.",
+    "score": 45,
+    "note": "BTC hashrate ~900 EH/s, down ~4% YTD (first Q1 drop since 2020) as miners pivot to AI infra; top-2 pools now ~44-45% of blocks, a centralization concern. Chainlink shipped CCIP 2.0 Sep28; LINK/CCIP assets on Solana growing ($19B+ unlocked).",
     "sources": [
-      "https://www.coinwarz.com/bitcoin-hashrate",
-      "https://thedefiant.io/news/defi/chainlink-ccip-launches-on-solana-mainnet-unlocking-18-billion-assets-boosting-0bacc12a",
-      "https://financefeeds.com/how-chainlink-ccip-connects-ethereum-solana-and-private-bank-chains-in-2026/",
-      "https://www.coindesk.com/price/bitcoin"
+      "https://www.kucoin.com/blog/in-bitcoin-hashrate-in-2026-latest-trends-mining-difficulty-network-security-analysis",
+      "https://shattered.io/bitcoin-mining-pool-reorg-centralization-2026/",
+      "https://www.coindesk.com/business/2026/09/28/chainlink-updates-its-crypto-bridge-tech-months-after-a-usd292-million-hack-shook-the-industry",
+      "https://thedefiant.io/news/defi/chainlink-ccip-launches-on-solana-mainnet-unlocking-18-billion-assets-boosting-0bacc12a"
     ]
   },
   "eventRisk": {
     "points": 5,
-    "note": "Bitget $351.6M hack (Sep24, hot-wallet only) still settling, aftermath/contagion risk (-3); elevated leverage/OI from recent liquidation events (-2). No imminent FOMC(Oct27-28)/CPI(Oct14) or outflow streak.",
+    "note": "Bitget $388M hack (Sep24-25) still unresolved, attacker holds 63k+ ETH, contagion/trust risk (-3); Trump rejected Iran's 7-day plan, adding geopolitical tension (-2). No FOMC(Oct28)/CPI(Oct14) within 3 days.",
     "sources": [
-      "https://coinpedia.org/news/bitget-hit-by-350-million-exploit-largest-crypto-hack-of-2026/",
-      "https://fedratecalc.com/fomc-meeting-schedule/",
-      "https://www.bls.gov/news.release/cpi.nr0.htm"
+      "https://www.theblock.co/news/regulation/2026-09-28-bitget-attacker-tested-risk-controls-small-transfers-388-million-theft-ceo-says-417045",
+      "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-28-2026-bitcoin-loses-ground-after-trump-rejects-irans-7-day-plan-113444329.html"
     ]
   }
 }
